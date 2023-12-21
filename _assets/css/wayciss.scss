@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, serif;
+}
+
+blockquote, li, p {
+    font-size: 16px;
+}
+
+figure {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1,
+h2,
+.lead {
+    font-family: 'Gentium Basic', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.embed-responsive,
+img {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+nav {
+    padding-top: 1rem;
+}
+
+.pdf {
+    width: 100%;
+    height: 600px;
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .lead {
+        font-size: 21px;
+    }
+}
